@@ -8,3 +8,4 @@ This is a ray tracing program mainly based on ['Ray Tracing' series books](https
 + Metal
 + Dielectrics
 + Defocus Blur
+![Result 1]()
