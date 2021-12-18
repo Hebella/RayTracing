@@ -18,4 +18,4 @@ This is a ray tracing program mainly based on ['Ray Tracing' series books](https
 + Image Texture Mapping
 + Lights
 
-![Result 2]()
+![Result 2](https://github.com/Hebella/RayTracing/blob/main/Results/Result%202.png)
