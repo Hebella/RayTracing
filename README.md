@@ -22,5 +22,5 @@ This is a ray tracing program mainly based on ['Ray Tracing' series books](https
 
 + Volumes
 
-![Result 3]
+![Result 3](https://github.com/Hebella/RayTracing/blob/main/Results/Result%203.png)
 
