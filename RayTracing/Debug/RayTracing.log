@@ -1,26 +1,28 @@
 ﻿  main.cpp
-C:\Users\27019\source\repos\RayTracing\RayTracing\hittable.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\27019\source\repos\RayTracing\RayTracing\perlin.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\27019\source\repos\RayTracing\RayTracing\raytracing_stb_image.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\27019\source\repos\RayTracing\RayTracing\aarect.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\27019\source\repos\RayTracing\RayTracing\aarect.h(92,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\box.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\27019\source\repos\RayTracing\RayTracing\constant_medium.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\27019\source\repos\RayTracing\RayTracing\pdf.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\27019\source\repos\RayTracing\RayTracing\nearest_photons.h(35,20): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\27019\source\repos\RayTracing\RayTracing\nearest_photons.h(40,22): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\27019\source\repos\RayTracing\RayTracing\nearest_photons.h(44,24): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\nearest_photons.h(49,29): warning C4018: “>”: 有符号/无符号不匹配
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(23,21): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(56,24): warning C4018: “>=”: 有符号/无符号不匹配
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(66,38): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(101,15): warning C4018: “>=”: 有符号/无符号不匹配
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(111,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(111,62): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(111,102): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(122,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\photon_map.h(130,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-C:\Users\27019\source\repos\RayTracing\RayTracing\main.cpp(351,23): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\27019\source\repos\RayTracing\RayTracing\main.cpp(546,23): warning C4018: “<”: 有符号/无符号不匹配
-  RayTracing.vcxproj -> C:\Users\27019\source\repos\RayTracing\Debug\RayTracing.exe
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\hittable.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\perlin.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\raytracing_stb_image.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\aarect.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\aarect.h(92,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\box.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\constant_medium.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\pdf.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\nearest_photons.h(35,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\nearest_photons.h(40,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\nearest_photons.h(44,24): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\nearest_photons.h(49,29): warning C4018: “>”: 有符号/无符号不匹配
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(23,21): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(56,24): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(66,38): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(101,15): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(111,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(111,62): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(111,102): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(122,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\photon_map.h(130,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\27019\source\repos\MyGitHub\RayTracing\RayTracing\main.cpp(351,23): warning C4018: “<”: 有符号/无符号不匹配
+  ray.cpp
+  vec3.cpp
+  正在生成代码...
+  RayTracing.vcxproj -> C:\Users\27019\source\repos\MyGitHub\RayTracing\Debug\RayTracing.exe

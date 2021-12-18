@@ -31,7 +31,7 @@ color ray_color(const ray& r, const color& background, const hittable& world, sh
     if (depth <= 0)
         return color(0, 0, 0);
 
-    if (!world.hit(r, 0.001, infinity, rec))
+    if (!world.hit(r, 0.001, infinity, rec)) // find the nearest crosspoint
         return background;
 
     ray scattered;
@@ -62,8 +62,8 @@ color ray_color(const ray& r, const color& background, const hittable& world, sh
     //cosine_pdf p(rec.normal);
     //scattered = ray(rec.pt, p.generate(), r.time());
     //pdf = p.value(scattered.direction());
-    if (!is_reflected)
-        return photon_map->getIrradiance(rec.pt, rec.normal, 20, 100);
+    //if (!is_reflected)
+    //    return photon_map->getIrradiance(rec.pt, rec.normal, 20, 100);
 
     if (!rec.mat_ptr->use_monte_carlo())
         return emitted + albedo * ray_color(scattered, background, world, lights, depth - 1);
@@ -234,13 +234,13 @@ hittable_list cornell_box()
     objects.add(make_shared<xz_rect>(0, 555, -555, 0, 555, white));
     objects.add(make_shared<xy_rect>(0, 555, 0, 555, -555, white));
 
-    auto material3 = make_shared<metal>(color(0.7, 0.6, 0.5), 0.0);
+    //auto material3 = make_shared<metal>(color(0.7, 0.6, 0.5), 0.0);
     //auto metalball = make_shared<dielectric>(1.5);
-    objects.add(make_shared<sphere>(point3(300, 100, -300), 50, material3));
+    //objects.add(make_shared<sphere>(point3(300, 100, -300), 50, material3));
 
     
 
-    /*shared_ptr<hittable> box1 = make_shared<box>(point3(0.0, 0.0, 0), point3(165.0, 330.0, 165.0), ground);
+    shared_ptr<hittable> box1 = make_shared<box>(point3(0.0, 0.0, 0), point3(165.0, 330.0, 165.0), ground);
     box1 = make_shared<rotate_y>(box1, 15);
     box1 = make_shared<translate>(box1, vec3(130, 0, -500));
     //objects.add(make_shared<constant_medium>(box1, 0.01, color(7, 7, 7)));
@@ -249,7 +249,7 @@ hittable_list cornell_box()
     shared_ptr<hittable> box2 = make_shared<box>(point3(0.0, 0.0, 0), point3(165.0, 165, 165.0), white);
     box2 = make_shared<rotate_y>(box2, -18);
     box2 = make_shared<translate>(box2, vec3(300, 0, -300));
-    objects.add(box2);*/
+    objects.add(box2);
     return objects;
 }
 
@@ -419,7 +419,7 @@ int main(int argc, char** argv)
 {
     auto aspect_ratio = 16.0 / 9.0;
     int image_width = 800;
-    int samples_per_pixel = 50;
+    int samples_per_pixel = 100;
     const int max_depth = 5;
 
     // World
@@ -509,7 +509,7 @@ int main(int argc, char** argv)
 
     cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
 
-    xz_rect photon_lights(213, 343, -332, -227, 554, shared_ptr<material>());
+    /*xz_rect photon_lights(213, 343, -332, -227, 554, shared_ptr<material>());
     vec3 origin, dir, power = vec3(27.0f, 27.0f, 27.0f);
     float power_scale;
     while (photon_map->photons.size() < 50000)
@@ -519,7 +519,7 @@ int main(int argc, char** argv)
         trace_photon(r, world, 0, power_scale, photon_map);
     }
 
-    photon_map->balance();
+    photon_map->balance();*/
 
     //cerr << photon_map->photons.size() << endl;
 
@@ -543,11 +543,11 @@ int main(int argc, char** argv)
     //shared_ptr<PhotonMap> photon_map = make_shared<PhotonMap>(10000);
 
     
-    for (int i = 0; i < photon_map->photons.size(); ++i)
+    /*for (int i = 0; i < photon_map->photons.size(); ++i)
     {
         points.push_back(vec3(photon_map->photons[i].origin.x(), photon_map->photons[i].origin.y(), photon_map->photons[i].origin.z()));
     }
-    cerr << "\nDone.\n";
+    cerr << "\nDone.\n";*/
 
     
 
