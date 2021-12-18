@@ -28,4 +28,5 @@ This is a ray tracing program mainly based on ['Ray Tracing' series books](https
 + Mixture Densities
 
 ![Result 4]((https://github.com/Hebella/RayTracing/blob/main/Results/Result%204.png))
+
 ![Result 5]((https://github.com/Hebella/RayTracing/blob/main/Results/Result%205.png))
