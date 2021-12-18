@@ -8,6 +8,8 @@
 #include "texture.h"
 #include "onb.h"
 
+
+
 class material
 {
 public:
@@ -43,17 +45,10 @@ public:
     {
         onb uvw;
         uvw.build_from_w(rec.normal);
-        auto direction = uvw.local(random_cosine_direction());
-        //auto scatter_direction = rec.normal + random_unit_vector();
+        auto direction = uvw.local(random_cosine_direction()); // a random direction
 
-        //if (scatter_direction.near_zero())
-        //    scatter_direction = rec.normal;
-
-        //scattered = ray(rec.pt, scatter_direction, r_in.time());
-        //attenuation = albedo->value(rec.u, rec.v, rec.pt);
-
-        scattered = ray(rec.pt, unit_vector(direction), r_in.time());
-        attenuation = albedo->value(rec.u, rec.v, rec.pt);
+        scattered = ray(rec.pt, unit_vector(direction), r_in.time()); // produce a scattered ray (or say it absorbed the incident ray)
+        attenuation = albedo->value(rec.u, rec.v, rec.pt); // how much the ray should be attenuated
         pdf = dot(uvw.w(), scattered.direction()) / pi;
         return true;
     }
